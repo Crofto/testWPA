@@ -9,17 +9,17 @@ export default defineConfig({
       name: 'hjhkjhkjh',
       icons: [
         {
-          src: "images/favicon.ico",
+          src: "/images/favicon.ico",
           sizes: "64x64 32x32 24x24 16x16",
           type: "image/x-icon"
         },
         {
-          src: "images/logo192.png",
+          src: "/images/logo192.png",
           type: "image/png",
           sizes: "192x192"
         },
         {
-          src: "images/logo512.png",
+          src: "/images/logo512.png",
           type: "image/png",
           sizes: "512x512"
         }
