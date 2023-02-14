@@ -26,14 +26,18 @@ function App ()  {
       (choice === "ciseaux" && computerChoice === "papier") 
     ) {
       setResult("Vous avez gagné !");
-      const notifTitle = "test";
-      const notifBody = `yo`;
-      const notifImg = `/images/logo192.png`;
-      const options = {
-        body: notifBody,
-        icon: notifImg,
-      };
-      new Notification(notifTitle, options);
+      if ('Notification' in window) {
+        Notification.requestPermission().then((result) => {
+          if (result === 'granted') {
+            const notification = new Notification('Notification title', {
+              body: 'Notification body',
+              icon: 'path/to/icon.png'
+            });
+            setTimeout(notification.close.bind(notification), 5000);
+          }
+        });
+      }
+      
     } else {
       setResult("Vous avez perdu !");
     }
