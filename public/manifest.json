@@ -2,7 +2,10 @@
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "PierreFeuilleCiseau",
     "short_name": "PFC",
-    "start_url": "https://main--bucolic-pixie-22b1e5.netlify.app/",
+    
+  "scope": "/",
+  "start_url": "/",
+    
     "id": "/",
     "display": "standalone",
     "background_color": "#fff",
