@@ -9,7 +9,7 @@ function App ()  {
 
   const choices = ["pierre", "papier", "ciseaux"];
   
-  serviceWorkerRegistration.unregister();
+  serviceWorkerRegistration.register();
 
   const handleClick = (choice: string) => {
     const randomNum = Math.floor(Math.random() * 3);
