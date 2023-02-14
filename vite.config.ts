@@ -8,7 +8,7 @@ export default defineConfig({
     mode: "development",
     base: "/",
     srcDir: "src",
-    filename: "sw.ts",
+    filename: "service-worker.ts",
     includeAssets: ["/favicon.png"],
     strategies: "injectManifest"
   }),],
