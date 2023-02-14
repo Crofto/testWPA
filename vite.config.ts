@@ -6,7 +6,7 @@ import { VitePWA } from "vite-plugin-pwa"
 export default defineConfig({
   plugins: [react(), VitePWA({
     manifest: {
-      name: 'hjhkjhkjh',
+      name: 'PierreFeuilleCiseau',
       icons: [
         {
           src: "/images/favicon.ico",

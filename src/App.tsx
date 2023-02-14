@@ -26,6 +26,14 @@ function App ()  {
       (choice === "ciseaux" && computerChoice === "papier") 
     ) {
       setResult("Vous avez gagné !");
+      const notifTitle = "test";
+      const notifBody = `yo`;
+      const notifImg = `/images/logo192.png`;
+      const options = {
+        body: notifBody,
+        icon: notifImg,
+      };
+      new Notification(notifTitle, options);
     } else {
       setResult("Vous avez perdu !");
     }
