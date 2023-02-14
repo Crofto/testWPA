@@ -2,10 +2,14 @@
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "PierreFeuilleCiseau",
     "short_name": "PFC",
-    "start_url": "/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#fff",
     "description": "Un incroyable site de pîerrefeuilleciseau",
+    
+    "srcDir": "src",
+    "filename": "service-worker.ts",
+
     "protocol_handlers": [
       {
         "protocol": "web+pwinter",
@@ -14,17 +18,17 @@
     ],
     "icons": [
       {
-        "src": "public/favicon.ico",
+        "src": "../public/favicon.ico",
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/x-icon"
       },
       {
-        "src": "public/logo192.png",
+        "src": "../public/logo192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "public/logo512.png",
+        "src": "../public/logo512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
