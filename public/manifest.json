@@ -10,7 +10,7 @@
     "protocol_handlers": [
       {
         "protocol": "web+pwinter",
-        "url": "index.html"
+        "url": "https://main--bucolic-pixie-22b1e5.netlify.app/"
       }
     ],
     "icons": [
