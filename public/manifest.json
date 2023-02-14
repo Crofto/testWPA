@@ -10,7 +10,7 @@
     "protocol_handlers": [
       {
         "protocol": "web+pwinter",
-        "url": "index.html"
+        "url": "."
       }
     ],
     "icons": [
